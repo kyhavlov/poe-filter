@@ -35,6 +35,7 @@ Show
 
 Show
     ItemLevel >= 73
+    Rarity = Rare
     BaseType "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Titanium Spirit Shield" "Hubris Circlet" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Slink Gloves" "Titan Gauntlets" "Slink Boots" "Titan Greaves" "Lion Pelt" "Royal Burgonet" "Astral Plate" "Assassin's Garb" "Coronal Maul" "Imperial Skean" "Platinum Kris" "Ambusher" "Jewelled Foil" "Harbinger Bow" "Steel Ring" "Opal Ring" "Marble Amulet" "Imbued Wand" "Vaal Axe"
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
