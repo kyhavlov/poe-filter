@@ -18,6 +18,7 @@ Show
     LinkedSockets = 5
     SetBorderColor 255 255 119
     SetFontSize 45
+    PlayAlertSound 3 100
 
 Show
     Rarity = Normal
@@ -32,6 +33,7 @@ Show
     Sockets = 6
     SetBorderColor 255 255 119
     SetFontSize 45
+    PlayAlertSound 3 100
 
 Show
     ItemLevel >= 73
