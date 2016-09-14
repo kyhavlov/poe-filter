@@ -1,4 +1,4 @@
-# Script edited with Filtration - https://github.com/ben-wallis/Filtration
+﻿# Script edited with Filtration - https://github.com/ben-wallis/Filtration
 
 Show
     BaseType "Exalted Orb" "Mirror of Kalandra" "Divine Orb" "Deafening Essence of"
@@ -251,7 +251,7 @@ Show
 # Gems
 Show
     Class "Gems"
-    BaseType "Portal" "Empower" "Enlighten" "Enhance" "Vaal Haste" "Vaal Discipline"
+    BaseType "Portal" "Empower" "Enlighten" "Enhance" "Vaal Haste" "Vaal Discipline" "Vaal Grace" "Vaal Storm Call" "Vaal Fireball" "Vaal Spark" "Vaal Reave"
     SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSound 5 200
@@ -266,7 +266,7 @@ Show
 
 Show
     ItemLevel >= 84
-    BaseType "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Gemini Claw" "Vaal Claw" "Sai" "Imperial Skean" "Platinum Kris" "Ambusher" "Demon Dagger" "Behemoth Mace" "Sambar Sceptre" "Coronal Maul" "Eclipse Staff" "Judgement Staff" "Maelström Staff" "Tiger Hook" "Jewelled Foil" "Vaal Rapier" "Profane Wand" "Prophecy Wand" "Imbued Wand" "Astral Plate" "Assassin's Garb" "Vaal Regalia" "Saintly Chainmail" "Carnal Armour" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Titan Gauntlets" "Slink Gloves" "Titan Gauntlets" "Slink Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Royal Burgonet" "Lion Pelt" "Hubris Circlet" "Nightmare Bascinet" "Bone Helmet" "Praetor Crown" "Deicide Mask" "Imperial Buckler" "Titanium Spirit Shield" "Archon Kite Shield" "Supreme Spiked Shield" "Opal Ring" "Steel Ring" "Marble Amulet" "Vanguard Belt" "Crystal Belt"
+    BaseType "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Gemini Claw" "Vaal Claw" "Sai" "Imperial Skean" "Platinum Kris" "Ambusher" "Demon Dagger" "Behemoth Mace" "Sambar Sceptre" "Coronal Maul" "Eclipse Staff" "Judgement Staff" "Tiger Hook" "Jewelled Foil" "Vaal Rapier" "Profane Wand" "Prophecy Wand" "Imbued Wand" "Astral Plate" "Assassin's Garb" "Vaal Regalia" "Saintly Chainmail" "Carnal Armour" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Titan Gauntlets" "Slink Gloves" "Titan Gauntlets" "Slink Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Royal Burgonet" "Lion Pelt" "Hubris Circlet" "Nightmare Bascinet" "Bone Helmet" "Praetor Crown" "Deicide Mask" "Imperial Buckler" "Titanium Spirit Shield" "Archon Kite Shield" "Supreme Spiked Shield" "Opal Ring" "Steel Ring" "Marble Amulet" "Vanguard Belt" "Crystal Belt"
     SetBorderColor 170 158 130
     SetFontSize 40
 
