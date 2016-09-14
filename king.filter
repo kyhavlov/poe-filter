@@ -1,4 +1,5 @@
 # Script edited with Filtration - https://github.com/ben-wallis/Filtration
+
 Show
     BaseType "Exalted Orb" "Mirror of Kalandra" "Divine Orb" "Deafening Essence of"
     SetTextColor 210 0 0
@@ -23,7 +24,7 @@ Show
     BaseType "Sorcerer Boots"
     SetTextColor 0 0 0
     SetBackgroundColor 194 50 161
-    SetBorderColor 0 0 0
+    SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSound 7 100
 
@@ -162,6 +163,7 @@ Show
     BaseType "Perandus Coin"
     SetTextColor 255 255 255
     SetBackgroundColor 74 0 160 200
+    SetBorderColor 255 255 255
     SetFontSize 35
     PlayAlertSound 3 100
 
@@ -169,6 +171,7 @@ Show
     BaseType "Silver Coin"
     SetTextColor 255 255 255
     SetBackgroundColor 74 0 160 200
+    SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSound 3 100
 
@@ -177,6 +180,7 @@ Show
     BaseType "Prophecy"
     SetTextColor 255 255 255
     SetBackgroundColor 74 0 160 200
+    SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSound 3 100
 
@@ -185,6 +189,7 @@ Show
     BaseType "Essence" "Remnant of Corruption" "Cartographer's Sextant" "Cartographer's Seal" "Unshaping Orb"
     SetTextColor 255 255 255
     SetBackgroundColor 74 0 160 200
+    SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSound 3 100
 
@@ -251,7 +256,7 @@ Show
 Show
     Class "Gems"
     BaseType "Portal" "Empower" "Enlighten" "Enhance" "Vaal Haste" "Vaal Discipline" "Vaal Grace" "Vaal Storm Call" "Vaal Fireball" "Vaal Spark" "Vaal Reave"
-    SetBorderColor 0 0 0
+    SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSound 5 200
 
@@ -260,7 +265,7 @@ Show
     Quality >= 13
     Class "Flask" "Gem"
     SetTextColor 184 218 242
-    SetBorderColor 0 0 0
+    SetBorderColor 255 255 255
     SetFontSize 45
 
 Show
