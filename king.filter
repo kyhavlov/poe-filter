@@ -1,5 +1,4 @@
-﻿# Script edited with Filtration - https://github.com/ben-wallis/Filtration
-
+# Script edited with Filtration - https://github.com/ben-wallis/Filtration
 Show
     BaseType "Exalted Orb" "Mirror of Kalandra" "Divine Orb" "Deafening Essence of"
     SetTextColor 210 0 0
@@ -200,7 +199,7 @@ Show
 Show
     Class "Currency"
     BaseType "Chaos Orb" "Orb of Regret" "Orb of Fusing" "Orb of Scouring" "Vaal Orb" "Regal Orb" "Blessed Orb" "Glassblower's Bauble" "Orb of Alchemy" "Gemcutter's Prism" "Cartographer's Chisel"
-    SetTextColor 170 158 130
+    SetTextColor 237 198 108
     SetBorderColor 255 255 119
     SetFontSize 45
     PlayAlertSound 4 79
@@ -260,7 +259,7 @@ Show
 Show
     Quality >= 13
     Class "Flask" "Gem"
-    SetTextColor 140 182 212 200
+    SetTextColor 184 218 242
     SetBorderColor 0 0 0
     SetFontSize 45
 
