@@ -1,4 +1,4 @@
-﻿# Script edited with Filtration - https://github.com/ben-wallis/Filtration
+# Script edited with Filtration - https://github.com/ben-wallis/Filtration
 
 Show
     BaseType "Exalted Orb" "Mirror of Kalandra" "Divine Orb" "Deafening Essence of"
@@ -23,7 +23,7 @@ Show
     Rarity = Normal
     BaseType "Sorcerer Boots"
     SetTextColor 0 0 0
-    SetBackgroundColor 210 0 220
+    SetBackgroundColor 194 50 161
     SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSound 7 100
@@ -154,14 +154,14 @@ Show
 Show
     BaseType "Perandus Coin"
     SetTextColor 255 255 255
-    SetBackgroundColor 0 205 0
+    SetBackgroundColor 74 0 160 200
     SetFontSize 35
     PlayAlertSound 3 100
 
 Show
     BaseType "Silver Coin"
     SetTextColor 255 255 255
-    SetBackgroundColor 0 205 0
+    SetBackgroundColor 74 0 160 200
     SetFontSize 45
     PlayAlertSound 3 100
 
@@ -169,7 +169,7 @@ Show
     Class "Currency"
     BaseType "Prophecy"
     SetTextColor 255 255 255
-    SetBackgroundColor 0 205 0
+    SetBackgroundColor 74 0 160 200
     SetFontSize 45
     PlayAlertSound 3 100
 
@@ -177,7 +177,7 @@ Show
     Class "Currency"
     BaseType "Essence" "Remnant of Corruption" "Cartographer's Sextant" "Cartographer's Seal" "Unshaping Orb"
     SetTextColor 255 255 255
-    SetBackgroundColor 0 205 0
+    SetBackgroundColor 74 0 160 200
     SetFontSize 45
     PlayAlertSound 3 100
 
@@ -235,8 +235,8 @@ Show
 
 Show
     Class "Map Fragment"
-    SetTextColor 255 102 255
-    SetBackgroundColor 153 255 255
+    SetTextColor 150 0 0
+    SetBackgroundColor 163 141 109
     SetFontSize 40
     PlayAlertSound 2 100
 
