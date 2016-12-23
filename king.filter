@@ -21,8 +21,8 @@ Show
     PlayAlertSound 3 100
 
 Show
-    Rarity = Normal
     BaseType "Sorcerer Boots"
+    Rarity = Normal
     SetTextColor 0 0 0
     SetBackgroundColor 194 50 161
     SetBorderColor 255 255 255
@@ -36,16 +36,16 @@ Show
     PlayAlertSound 3 100
 
 Show
-    ItemLevel >= 73
-    Rarity = Rare
     BaseType "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Titanium Spirit Shield" "Hubris Circlet" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Slink Gloves" "Titan Gauntlets" "Slink Boots" "Titan Greaves" "Lion Pelt" "Royal Burgonet" "Astral Plate" "Assassin's Garb" "Coronal Maul" "Imperial Skean" "Platinum Kris" "Ambusher" "Jewelled Foil" "Harbinger Bow" "Steel Ring" "Opal Ring" "Marble Amulet" "Imbued Wand" "Vaal Axe"
+    Rarity = Rare
+    ItemLevel >= 73
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetFontSize 45
 
 Show
-    Rarity = Rare
     Class "Amulets" "Rings" "Belts" "Jewel"
+    Rarity = Rare
     SetBorderColor 255 255 119
     SetFontSize 45
 
@@ -56,15 +56,15 @@ Show
     SetFontSize 40
 
 Show # Maps:Unique
-    Rarity = Unique
     Class "Maps"
+    Rarity = Unique
     SetBorderColor 175 96 37
     SetFontSize 42
     PlayAlertSound 4 300
 
 Show # T1 - These uniques are have a consistent price of ~0.5++ ex
-    Rarity = Unique
     BaseType "Varnished Coat" "Gold Ring" "Ursine Pelt" "Champion Kite Shield" "Sapphire Flask" "Desert Brigandine" "Occultist" "Glorious" "Titanium" "Judgement Staff" "Siege Axe" "Prophecy Wand" "Sacrificial Garb" "Sorcerer Boots" "Topaz Flask" "Deicide Mask" "Imperial Skean" "Rawhide Boots" "Assassin's Garb" "Ezomyte Burgonet" "Two-Stone" "Savant's Robe" "Vaal Regalia" "Silver Flask" "Jewelled Foil" "Fiend Dagger" "Gladiator Plate" "Exquisite Leather" "Prismatic Jewel" "Lion Pelt" "Stibnite Flask" "Crusader Boots"
+    Rarity = Unique
     SetTextColor 175 96 37
     SetBackgroundColor 255 255 255
     SetBorderColor 175 96 37
@@ -72,8 +72,8 @@ Show # T1 - These uniques are have a consistent price of ~0.5++ ex
     PlayAlertSound 6 300
 
 Show # T2 - These uniques usually are worth ~0.5 - 1 ex at the start of the league and drop to ~5c++ (sometimes ranging to an ex and up) over 1 - 2 month.
-    Rarity = Unique
     BaseType "Golden Plate" "Nubuck Boots" "Terror Maul" "Full Wyrmscale" "Gavel" "Archon Kite Shield" "Reinforced Greaves" "Imperial Bow" "Conjurer Boots" "Steelscale Gauntlets" "Nightmare Bascinet" "Sharkskin Boots" "Granite Flask" "Imperial Staff" "Deerskin Gloves" "Karui Sceptre" "Paua Ring" "Vaal Axe" "Spine Bow" "Slaughter Knife" "Sinner Tricorne" "Hubris" "Strapped Mitts" "Eternal Sword" "Onyx Amulet" "Penetrating Arrow Quiver" "Broadhead Arrow Quiver"
+    Rarity = Unique
     SetTextColor 0 0 0
     SetBackgroundColor 200 96 37
     SetBorderColor 0 0 0
@@ -211,6 +211,9 @@ Show
     SetFontSize 45
     PlayAlertSound 4 79
 
+Hide
+    BaseType "Portal Scroll" "Scroll of Wisdom"
+
 # Garbage currencies
 Show
     Class "Currency"
@@ -271,8 +274,8 @@ Show
     SetFontSize 45
 
 Show
-    ItemLevel >= 84
     BaseType "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Gemini Claw" "Vaal Claw" "Sai" "Imperial Skean" "Platinum Kris" "Ambusher" "Demon Dagger" "Behemoth Mace" "Sambar Sceptre" "Coronal Maul" "Eclipse Staff" "Judgement Staff" "Tiger Hook" "Jewelled Foil" "Vaal Rapier" "Profane Wand" "Prophecy Wand" "Imbued Wand" "Astral Plate" "Assassin's Garb" "Vaal Regalia" "Saintly Chainmail" "Carnal Armour" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Titan Gauntlets" "Slink Gloves" "Titan Gauntlets" "Slink Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Royal Burgonet" "Lion Pelt" "Hubris Circlet" "Nightmare Bascinet" "Bone Helmet" "Praetor Crown" "Deicide Mask" "Imperial Buckler" "Titanium Spirit Shield" "Archon Kite Shield" "Supreme Spiked Shield" "Opal Ring" "Steel Ring" "Marble Amulet" "Vanguard Belt" "Crystal Belt"
+    ItemLevel >= 84
     SetBorderColor 170 158 130
     SetFontSize 40
 
