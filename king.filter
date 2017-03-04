@@ -257,6 +257,20 @@ Show
     SetFontSize 40
     PlayAlertSound 2 100
 
+Show
+    Class "Misc Map Items"
+    SetTextColor 0 0 0
+    SetBackgroundColor 210 0 0
+    SetFontSize 45
+    PlayAlertSound 4 100
+
+Show
+    Class "Leaguestone"
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSound 4 100
+
 # Gems
 Show
     Class "Gems"
