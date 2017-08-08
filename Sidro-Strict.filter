@@ -214,7 +214,7 @@ Show
     PlayAlertSound 4 79
 
 Hide
-    BaseType "Portal Scroll" "Scroll of Wisdom" "Transmutation Shard"
+    BaseType "Portal Scroll" "Scroll of Wisdom" "Transmutation Shard" "Armourer's Scrap"
 
 # Garbage currencies
 Show
