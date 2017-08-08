@@ -44,14 +44,6 @@ Show
     SetFontSize 45
 
 Show
-    Class "Jewel"
-    Rarity <= Magic
-
-Show
-    Class "Jewel"
-    Rarity = Rare
-
-Show
     Class "Amulets" "Rings" "Belts" "Jewel"
     Rarity = Rare
     SetBorderColor 255 255 119
