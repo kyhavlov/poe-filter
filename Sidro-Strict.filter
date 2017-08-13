@@ -36,7 +36,7 @@ Show
     PlayAlertSound 3 100
 
 Show
-    BaseType "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Titanium Spirit Shield" "Hubris Circlet" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Slink Gloves" "Titan Gauntlets" "Slink Boots" "Titan Greaves" "Lion Pelt" "Royal Burgonet" "Astral Plate" "Assassin's Garb" "Coronal Maul" "Imperial Skean" "Platinum Kris" "Ambusher" "Jewelled Foil" "Harbinger Bow" "Steel Ring" "Opal Ring" "Marble Amulet" "Imbued Wand" "Vaal Axe" "Void Sceptre"
+    BaseType "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Titanium Spirit Shield" "Hubris Circlet" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Slink Gloves" "Titan Gauntlets" "Slink Boots" "Titan Greaves" "Lion Pelt" "Royal Burgonet" "Astral Plate" "Assassin's Garb" "Coronal Maul" "Imperial Skean" "Platinum Kris" "Ambusher" "Jewelled Foil" "Harbinger Bow" "Steel Ring" "Opal Ring" "Marble Amulet" "Imbued Wand" "Vaal Axe" "Void Sceptre" "Siege Axe"
     Rarity = Rare
     ItemLevel >= 73
     SetTextColor 255 255 0
