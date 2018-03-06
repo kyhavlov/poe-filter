@@ -224,7 +224,7 @@ Show
 # The rest of the mid-tier currencies
 Show
     Class "Currency"
-    BaseType "Chaos Orb" "Orb of Regret" "Orb of Fusing" "Orb of Scouring" "Vaal Orb" "Regal Orb" "Blessed Orb" "Glassblower's Bauble" "Orb of Alchemy" "Gemcutter's Prism" "Cartographer's Chisel"
+    BaseType "Chaos Orb" "Orb of Regret" "Orb of Fusing" "Orb of Scouring" "Vaal Orb" "Regal Orb" "Blessed Orb" "Glassblower's Bauble" "Orb of Alchemy" "Gemcutter's Prism" "Cartographer's Chisel" "Splinter of Chayula" "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol" "Splinter of Xoph"
     SetTextColor 237 198 108
     SetBorderColor 255 255 119
     SetFontSize 45
