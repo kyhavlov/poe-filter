@@ -1,7 +1,7 @@
 # Script edited with Filtration - https://github.com/ben-wallis/Filtration
 
 Show
-    BaseType "Exalted Orb" "Mirror of Kalandra" "Divine Orb" "Deafening Essence of" "Blessing"
+    BaseType "Exalted Orb" "Mirror of Kalandra" "Divine Orb" "Deafening Essence of"
     SetTextColor 210 0 0
     SetBackgroundColor 255 255 255
     SetFontSize 45
@@ -21,8 +21,24 @@ Show
     PlayAlertSound 3 100
 
 Show
-    BaseType "Sorcerer Boots" "Ebony Tower Shield"
+    ElderItem True
+    SetTextColor 0 0 0
+    SetBackgroundColor 150 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 3 79
+
+Show
+    ShaperItem True
+    SetTextColor 0 0 255
+    SetBackgroundColor 30 144 255
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 3 79
+
+Show
     Rarity = Normal
+    BaseType "Glorious Plate" "Occultist's Vestment"
     SetTextColor 0 0 0
     SetBackgroundColor 194 50 161
     SetBorderColor 255 255 255
@@ -36,21 +52,22 @@ Show
     PlayAlertSound 3 100
 
 Show
-    BaseType "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Titanium Spirit Shield" "Hubris Circlet" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Slink Gloves" "Titan Gauntlets" "Slink Boots" "Titan Greaves" "Lion Pelt" "Royal Burgonet" "Astral Plate" "Assassin's Garb" "Coronal Maul" "Imperial Skean" "Platinum Kris" "Ambusher" "Jewelled Foil" "Harbinger Bow" "Steel Ring" "Opal Ring" "Marble Amulet" "Imbued Wand" "Vaal Axe" "Void Sceptre" "Siege Axe"
-    Rarity = Rare
     ItemLevel >= 73
+    Rarity = Rare
+    BaseType "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Titanium Spirit Shield" "Hubris Circlet" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Slink Gloves" "Titan Gauntlets" "Slink Boots" "Titan Greaves" "Lion Pelt" "Royal Burgonet" "Astral Plate" "Assassin's Garb" "Coronal Maul" "Imperial Skean" "Platinum Kris" "Ambusher" "Jewelled Foil" "Harbinger Bow" "Steel Ring" "Opal Ring" "Marble Amulet" "Imbued Wand" "Vaal Axe" "Stygian Vise"
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetFontSize 45
 
 Show
-    Class "Amulets" "Rings" "Belts" "Jewel"
     Rarity = Rare
+    Class "Amulets" "Rings" "Belts" "Jewel"
     SetBorderColor 255 255 119
     SetFontSize 45
 
 Show
     LinkedSockets >= 3
+    Sockets <= 4
     SocketGroup "BRG"
     Height <= 2
     Width <= 2
@@ -58,15 +75,15 @@ Show
     SetFontSize 40
 
 Show # Maps:Unique
-    Class "Maps"
     Rarity = Unique
+    Class "Maps"
     SetBorderColor 175 96 37
     SetFontSize 42
     PlayAlertSound 4 300
 
 Show # T1 - These uniques are have a consistent price of ~0.5++ ex
-    BaseType "Varnished Coat" "Gold Ring" "Ursine Pelt" "Champion Kite Shield" "Sapphire Flask" "Desert Brigandine" "Occultist" "Glorious" "Titanium" "Judgement Staff" "Siege Axe" "Prophecy Wand" "Sacrificial Garb" "Sorcerer Boots" "Topaz Flask" "Deicide Mask" "Imperial Skean" "Rawhide Boots" "Assassin's Garb" "Ezomyte Burgonet" "Two-Stone" "Savant's Robe" "Vaal Regalia" "Silver Flask" "Jewelled Foil" "Fiend Dagger" "Gladiator Plate" "Exquisite Leather" "Prismatic Jewel" "Lion Pelt" "Stibnite Flask" "Crusader Boots" "Ebony Tower Shield" "Moonstone Ring" "Archon Kite Shield" "Raven Mask" "Close Helmet"
     Rarity = Unique
+    BaseType "Varnished Coat" "Gold Ring" "Ursine Pelt" "Champion Kite Shield" "Sapphire Flask" "Desert Brigandine" "Occultist" "Glorious" "Titanium" "Judgement Staff" "Siege Axe" "Prophecy Wand" "Sacrificial Garb" "Sorcerer Boots" "Topaz Flask" "Deicide Mask" "Imperial Skean" "Rawhide Boots" "Assassin's Garb" "Ezomyte Burgonet" "Two-Stone" "Savant's Robe" "Vaal Regalia" "Silver Flask" "Jewelled Foil" "Fiend Dagger" "Gladiator Plate" "Exquisite Leather" "Prismatic Jewel" "Lion Pelt" "Stibnite Flask" "Crusader Boots"
     SetTextColor 175 96 37
     SetBackgroundColor 255 255 255
     SetBorderColor 175 96 37
@@ -74,8 +91,8 @@ Show # T1 - These uniques are have a consistent price of ~0.5++ ex
     PlayAlertSound 6 300
 
 Show # T2 - These uniques usually are worth ~0.5 - 1 ex at the start of the league and drop to ~5c++ (sometimes ranging to an ex and up) over 1 - 2 month.
-    BaseType "Golden Plate" "Nubuck Boots" "Terror Maul" "Full Wyrmscale" "Gavel" "Archon Kite Shield" "Reinforced Greaves" "Imperial Bow" "Conjurer Boots" "Steelscale Gauntlets" "Nightmare Bascinet" "Sharkskin Boots" "Granite Flask" "Imperial Staff" "Deerskin Gloves" "Karui Sceptre" "Paua Ring" "Vaal Axe" "Spine Bow" "Slaughter Knife" "Sinner Tricorne" "Hubris" "Strapped Mitts" "Eternal Sword" "Onyx Amulet" "Penetrating Arrow Quiver" "Broadhead Arrow Quiver"
     Rarity = Unique
+    BaseType "Golden Plate" "Nubuck Boots" "Terror Maul" "Full Wyrmscale" "Gavel" "Archon Kite Shield" "Reinforced Greaves" "Imperial Bow" "Conjurer Boots" "Steelscale Gauntlets" "Nightmare Bascinet" "Sharkskin Boots" "Granite Flask" "Imperial Staff" "Deerskin Gloves" "Karui Sceptre" "Paua Ring" "Vaal Axe" "Spine Bow" "Slaughter Knife" "Sinner Tricorne" "Hubris" "Strapped Mitts" "Eternal Sword" "Onyx Amulet" "Penetrating Arrow Quiver" "Broadhead Arrow Quiver"
     SetTextColor 0 0 0
     SetBackgroundColor 200 96 37
     SetBorderColor 0 0 0
@@ -111,7 +128,7 @@ Show
 # TIER 1: ~15C++ The penultimate cards. 
 Show
     Class "Divination"
-    BaseType "The Doctor" "The Fiend" "House of Mirrors" "Hunter's Reward" "Abandoned Wealth" "The Artist" "Bowyer's Dream" "The Brittle Emperor" "The Celestial Justicar" "The Dapper Prodigy" "The Dark Mage" "The Devastator" "The Dragon's Heart" "The Ethereal" "The Formless Sea" "Heterochromia" "The Hunger" "The Immortal" "The Last One Standing" "The Offering" "The Queen" "The Thaumaturgist" "Wealth and Power" "The Enlightened" "Mawr" "The Dragon's Heart" "The Artist" "The Saint's Treasure"
+    BaseType "The Doctor" "The Fiend" "House of Mirrors" "Hunter's Reward" "Abandoned Wealth" "The Artist" "Bowyer's Dream" "The Brittle Emperor" "The Celestial Justicar" "The Dapper Prodigy" "The Dark Mage" "The Devastator" "The Dragon's Heart" "The Ethereal" "The Formless Sea" "Heterochromia" "The Hunger" "The Immortal" "The Last One Standing" "The Offering" "The Queen" "The Thaumaturgist" "Wealth and Power" "The Enlightened"
     SetTextColor 0 0 255
     SetBackgroundColor 255 255 255
     SetBorderColor 0 0 255
@@ -207,14 +224,14 @@ Show
 # The rest of the mid-tier currencies
 Show
     Class "Currency"
-    BaseType "Chaos Orb" "Orb of Regret" "Orb of Fusing" "Orb of Scouring" "Vaal Orb" "Regal Orb" "Blessed Orb" "Glassblower's Bauble" "Orb of Alchemy" "Gemcutter's Prism" "Cartographer's Chisel" "Annulment Shard" "Harbinger's Shard" "Exalted Shard" "Ancient Orb" "Stacked Deck" "Orb of Binding" "Orb of Horizons"
+    BaseType "Chaos Orb" "Orb of Regret" "Orb of Fusing" "Orb of Scouring" "Vaal Orb" "Regal Orb" "Blessed Orb" "Glassblower's Bauble" "Orb of Alchemy" "Gemcutter's Prism" "Cartographer's Chisel"
     SetTextColor 237 198 108
     SetBorderColor 255 255 119
     SetFontSize 45
     PlayAlertSound 4 79
 
 Hide
-    BaseType "Portal Scroll" "Scroll of Wisdom" "Transmutation Shard" "Armourer's Scrap"
+    BaseType "Portal Scroll" "Scroll of Wisdom"
 
 # Garbage currencies
 Show
@@ -290,37 +307,24 @@ Show
     SetFontSize 45
 
 Show
-    BaseType "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Gemini Claw" "Vaal Claw" "Sai" "Imperial Skean" "Platinum Kris" "Ambusher" "Demon Dagger" "Behemoth Mace" "Sambar Sceptre" "Coronal Maul" "Eclipse Staff" "Judgement Staff" "Tiger Hook" "Jewelled Foil" "Vaal Rapier" "Profane Wand" "Prophecy Wand" "Imbued Wand" "Astral Plate" "Assassin's Garb" "Vaal Regalia" "Saintly Chainmail" "Carnal Armour" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Titan Gauntlets" "Slink Gloves" "Titan Gauntlets" "Slink Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Royal Burgonet" "Lion Pelt" "Hubris Circlet" "Nightmare Bascinet" "Bone Helmet" "Praetor Crown" "Deicide Mask" "Imperial Buckler" "Titanium Spirit Shield" "Archon Kite Shield" "Supreme Spiked Shield" "Opal Ring" "Steel Ring" "Marble Amulet" "Vanguard Belt" "Crystal Belt"
     ItemLevel >= 84
+    BaseType "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Gemini Claw" "Vaal Claw" "Sai" "Imperial Skean" "Platinum Kris" "Ambusher" "Demon Dagger" "Behemoth Mace" "Sambar Sceptre" "Coronal Maul" "Eclipse Staff" "Judgement Staff" "Tiger Hook" "Jewelled Foil" "Vaal Rapier" "Profane Wand" "Prophecy Wand" "Imbued Wand" "Astral Plate" "Assassin's Garb" "Vaal Regalia" "Saintly Chainmail" "Carnal Armour" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Titan Gauntlets" "Slink Gloves" "Titan Gauntlets" "Slink Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Royal Burgonet" "Lion Pelt" "Hubris Circlet" "Nightmare Bascinet" "Bone Helmet" "Praetor Crown" "Deicide Mask" "Imperial Buckler" "Titanium Spirit Shield" "Archon Kite Shield" "Supreme Spiked Shield" "Opal Ring" "Steel Ring" "Marble Amulet" "Vanguard Belt" "Crystal Belt"
     SetBorderColor 170 158 130
     SetFontSize 40
 
 Show
-    BaseType "Steel Ring" "Opal Ring" "Marble Amulet" "Crystal Belt"
-    SetTextColor 208 32 144
-    SetBorderColor 74 0 160 200
-    SetFontSize 45
-
-Show
-    BaseType "Fingerless Silk Gloves" "Two-Toned Boots" "Vanguard Belt" "Spiked Gloves" "Gripped Gloves"
-    SetTextColor 184 218 242
-    SetBorderColor 74 0 160 200
-    SetFontSize 45
-
-Show
-    Corrupted True
-    SetTextColor 208 32 144
-    SetBackgroundColor 136 136 255
-    SetFontSize 27
+    BaseType "Fingerless Silk Gloves" "Two-Toned Boots" "Steel Ring" "Opal Ring" "Marble Amulet" "Crystal Belt" "Vanguard Belt" "Spiked Gloves" "Gripped Gloves"
+    SetBorderColor 170 158 130
+    SetFontSize 40
 
 Hide
     Quality < 1
     Class "Flask" "Gem"
 
 Hide
-    Rarity = Rare
-
-Hide
     Rarity <= Magic
     SetFontSize 20
+
+Hide
+    Rarity = Rare
 
