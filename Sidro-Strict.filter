@@ -238,6 +238,22 @@ Show
     Class "Currency"
     SetFontSize 45
 
+Show
+    Rarity = Normal
+    BaseType "Gavel" "Stone Hammer" "Rock Breaker"
+    SetBorderColor 255 255 255
+    SetFontSize 45
+
+Hide
+
+# KYLE
+Show
+    ItemLevel >= 68
+    Rarity = Rare
+    Class "Quivers" "Boots"
+    SetBorderColor 255 255 119
+    SetFontSize 35
+
 # Maps
 Show
     DropLevel >= 78
